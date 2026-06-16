@@ -2,7 +2,7 @@ const dotenv = require("dotenv");
 const nodemailer = require("nodemailer");
 dotenv.config();
 const transporter = nodemailer.createTransport({
-  service: "74.125.142.108",
+  service: "gmail",
   port: 587,
   secure: false,
   auth: {
